@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  
+  header {
+    background: url('../PWA/img/pagani-4334803_1280.jpg') no-repeat center center/cover;
+    position: relative;
+    height: 50vh; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  header h2 {
+      color: black;
+      font-size: calc(1.5em + 1vw); 
+      margin: 0;
+  }
+  
+ 
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .auto {
+    flex: 1 1 300px;
+    margin: 10px;
+  }
+  
+  .auto img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .auto h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0.5em 0;
+  }
+  
+  .auto p {
+    line-height: 1.6;
+    color: #666;
+  }
+  
+
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+ 
+  @media only screen and (max-width: 768px) {
+    header {
+      height: 40vh;
+    }
+  
+    header h2 {
+      font-size: calc(1.25em + 1vw); 
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    header {
+      height: 30vh;
+    }
+  
+    header h2 {
+      font-size: calc(1em + 1vw); 
+    }
+  }
+  
